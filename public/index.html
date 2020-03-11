@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+  <meta name="theme-color" content="#000000" />
+
+
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/widgets.css">
+  <script type="text/javascript" src="%PUBLIC_URL%/js/require.min.js" data-main="%PUBLIC_URL%/js/main"></script>
+  <script src="%PUBLIC_URL%/js/config.js"></script>
+  
+
+  <title>CIM管理平台</title>
+  
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  
+  <div id="root"></div>
+  
+  <script>
+    function onload(Cesium) {
+      window.URL_CONFIG = URL_CONFIG
+      window.Cesium = Cesium
+    }
+  </script>
+
+</body>
+
+
+</html>
